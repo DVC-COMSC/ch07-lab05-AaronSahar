@@ -5,5 +5,5 @@
 strval = input().split()
 numbers = list(map(int, strval))
 print (numbers)
-find_number = int(input("enter a number to be found"))
+find_number = int(input("enter a number to be found: "))
 print(numbers.count(find_number))
