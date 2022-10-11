@@ -3,10 +3,7 @@
 # Make your Code
 # ******************************
 strval = input().split()
-numbers = []
-for v in strval:
-	numbers.append(int(v))
+numbers = list(map(int, strval))
 print (numbers)
-# the below llin 11 are same as the lines from 5 to 8
-# numbers = list(map(int, strval))
-# print (numbers)
+find_number = int(input("enter a number to be found"))
+print(numbers.count(find_number))
